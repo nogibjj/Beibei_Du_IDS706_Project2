@@ -5,3 +5,9 @@
 ## Dataset Description:
 I have downloaded the dataset from Kaggle about the lyrics of Kanye West for this project and make bash commands to do operations on it. [https://www.kaggle.com/datasets/paultimothymooney/poetry?select=Kanye_West.txt]
 
+## Standard Out
+* Filtering
+echo -e "Bella\nJeppy\nMuzi\nChris\nMochi" | sort > names.txt
+echo -e "Bella\nJeppy\nMuzi\nChris\nMochi" | sort | uniq -c
+
+
