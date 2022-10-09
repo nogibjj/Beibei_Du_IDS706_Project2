@@ -8,6 +8,6 @@ I have downloaded the dataset from Kaggle about the lyrics of Kanye West for thi
 ## Standard Out
 * Filtering
 echo -e "Bella\nJeppy\nMuzi\nChris\nMochi" | sort > names.txt
-echo -e "Bella\nJeppy\nMuzi\nChris\nMochi" | sort | uniq -c
+echo -e "Bella\nJeppy\nMuzi\nChris\nMochi" | sort | uniq -c | grep Jeppy
 
 
