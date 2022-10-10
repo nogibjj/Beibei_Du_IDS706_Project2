@@ -11,12 +11,17 @@ I have downloaded the dataset from Kaggle about the lyrics of Kanye West for thi
 3. Use bash commands to discover some key findings in the txt file
 4. Figure out the Most Common Theme in Kanye West lyrics [Try to find out if words like `bitch` appears a lot]
 
-## Standard Out
+## Word Cloud
+![image](https://github.com/nogibjj/Beibei_Du_IDS706_Project2/blob/main/output.png)
+
+## Some Used commands
+### Standard Out
 * Filtering
 echo -e "Bella\nJeppy\nMuzi\nChris\nMochi" | sort > names.txt
 echo -e "Bella\nJeppy\nMuzi\nChris\nMochi" | sort | uniq -c | grep Jeppy
 
-## Word Cloud
-![image](https://github.com/nogibjj/Beibei_Du_IDS706_Project2/blob/main/output.png)
+## Conclusion
+- I tried to use the words from the word cloud and see if the `bad` words are appeared more frequently then the `good` words.
+- I filtered the specific words and add then into the `filtered_lyrics.txt`.
 
 
