@@ -16,4 +16,7 @@ I have downloaded the dataset from Kaggle about the lyrics of Kanye West for thi
 echo -e "Bella\nJeppy\nMuzi\nChris\nMochi" | sort > names.txt
 echo -e "Bella\nJeppy\nMuzi\nChris\nMochi" | sort | uniq -c | grep Jeppy
 
+## Word Cloud
+![]https://github.com/nogibjj/Beibei_Du_IDS706_Project2/blob/main/output.png
+
 
