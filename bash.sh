@@ -22,25 +22,26 @@ echo "This is Beibei's" $NAME
 echo "--------------------------------"
 # Read through each line of the text and I have commented all these out
 #!/bin/bash
-touch filtered_lyrics
+touch filtered_lyrics.txt
 filename='Kanye_West.txt'
 n=1
-bad=0
-good=0
+# bad=0
+# good=0
 while read line; do
-reading each line
+    reading each line
     #if [grep -c -e bitch -e nigga -e shit -e fuck $line]; then
-    if ! grep -q -e bitch -e nigga -e shit -e fuck "$line"; then
+    if grep -q bitch "$line"; then
         bad += $((bad+1))
         $line >> filtered_lyrics.txt
     # elif [grep -c -e bitch -e love -e time -e world -e $line];
-    elif ! grep -q -e bitch -e love -e time -e world "$line"; then
+    elif grep -q love  "$line"; then
         bad += $((bad+1))
         $line >> filtered_lyrics.txt
     fi
     #echo "Line No. $n : $line" # I comment out the line to print each line of the lyrics
     n=$((n+1))
-done < $filename
+done < filtered_lyrics.txt
+#done < $filename
 
 ########## Radnomly shuffle 10 lines of the lyrics
 shuf -n 10 "$filename"
@@ -57,5 +58,3 @@ grep -c -v -e love -e peace "$filename"
 ## The total number of lines in the Kanye_West.txt
 wc -l "$filename"
 
-echo($bad)
-echo($good)
