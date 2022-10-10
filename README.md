@@ -25,6 +25,6 @@ echo -e "Bella\nJeppy\nMuzi\nChris\nMochi" | sort | uniq -c | grep Jeppy
 
 ## Conclusion
 - I tried to use the words from the word cloud and see if the `bad` words are appeared more frequently then the `good` words.
-- I filtered the specific words and add then into the `filtered_lyrics.txt`.
+- I filtered the specific words and add then into the `filtered_lyrics.txt`. Specifically, I take `bitch` as a bad word representation and `love` as a good world representation.
 
 
