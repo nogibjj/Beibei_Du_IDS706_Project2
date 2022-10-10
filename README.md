@@ -14,6 +14,9 @@ I have downloaded the dataset from Kaggle about the lyrics of Kanye West for thi
 ## Word Cloud
 ![image](https://github.com/nogibjj/Beibei_Du_IDS706_Project2/blob/main/output.png)
 
+## General WorkFlow
+![image](https://github.com/nogibjj/Beibei_Du_IDS706_Project2/blob/main/Screen%20Shot%202022-10-09%20at%2011.21.46%20PM.png)
+
 ## Some Used commands
 ### Standard Out
 * Filtering
