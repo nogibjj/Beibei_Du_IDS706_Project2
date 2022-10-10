@@ -9,7 +9,7 @@ I have downloaded the dataset from Kaggle about the lyrics of Kanye West for thi
 1. Download dataset and create a py.file for further cleaning
 2. In a python file, find out the most frequent words excluding the stop words
 3. Use bash commands to discover some key findings in the txt file
-4. Figure out the Most Common Theme in Kanye West lyrics [Try to find out if words like `bitch` appears a lot]
+4. Figure out the Most Common Theme in Kanye West lyrics [Try to find out if words like `bitch` and `love` appears a lot]
 
 ## Word Cloud
 ![image](https://github.com/nogibjj/Beibei_Du_IDS706_Project2/blob/main/output.png)
