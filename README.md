@@ -17,6 +17,6 @@ echo -e "Bella\nJeppy\nMuzi\nChris\nMochi" | sort > names.txt
 echo -e "Bella\nJeppy\nMuzi\nChris\nMochi" | sort | uniq -c | grep Jeppy
 
 ## Word Cloud
-![image]https://github.com/nogibjj/Beibei_Du_IDS706_Project2/blob/main/output.png
+![image](https://github.com/nogibjj/Beibei_Du_IDS706_Project2/blob/main/output.png)
 
 
