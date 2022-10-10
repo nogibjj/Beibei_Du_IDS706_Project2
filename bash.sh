@@ -44,10 +44,16 @@ filename='Kanye_West.txt'
 n=1
 bad=0
 good=0
+while read line
+do
+   echo $line
+   // or some_function "$line"
+done < testfile.txt
+
 while read line; do
     reading each line
     #if [grep -c -e bitch -e nigga -e shit -e fuck $line]; then
-    echo "Line No. $n : $line"
+        echo "Line No. $n : $line"
     if grep -q bitch "$line"; then
         bad += $((bad+1))
         echo "Bad"
